@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .property, .space ,.rent-roll{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .property h2, .space h3 {
+    margin: 0;
+    padding: 5px;
+    background: #007bff;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .property-details, .rent-details {
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left: 3px solid #007bff;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
